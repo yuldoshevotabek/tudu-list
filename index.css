@@ -1,0 +1,102 @@
+* {
+	list-style: none;
+}
+:root {
+	--black: #000000;
+	--white: #ffffff;
+	--green: green;
+	--red: red;
+	--orange: orange;
+}
+body {
+	background-color: var(--white);
+}
+.bigDiv {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.line-through {
+	text-decoration: line-through;
+}
+ul li {
+	color: var(--black);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.3rem;
+	font-weight: 700;
+	font-size: 1.4rem;
+	/* border: 1px solid red; */
+}
+ul li button {
+	border-radius: 50%;
+	background-color: transparent;
+	cursor: pointer;
+	/* border: 1px solid red; */
+	border: none;
+	font-size: 1.6rem;
+}
+#tayyor {
+	color: var(--green);
+}
+#tugma {
+	color: var(--red);
+	outline: none;
+}
+.bigDiv_input {
+	border: 1px solid black;
+	width: 250px;
+	display: flex;
+	justify-content: space-between;
+	height: 35px;
+	border-radius: 2rem;
+	position: relative;
+}
+.bigDiv_input button {
+	width: 29%;
+	right: 0px;
+	cursor: pointer;
+	border-radius: 2rem;
+	position: absolute;
+	height: 100%;
+	border: none;
+	background-color: var(--orange);
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--white);
+	transition: all 0.3s linear;
+	outline: none;
+}
+.bigDiv_input button:active {
+	transform: scale(0.95);
+}
+.bigDiv_input input {
+	border-radius: 2rem;
+	padding-left: 0.8rem;
+	font-size: 1rem;
+	width: 65%;
+	padding-right: 1.8rem;
+	border: none;
+	outline: none;
+}
+.rejim {
+	/* border: 1px solid red; */
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	font-size: 2rem;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+.tungi {
+	/* border: 1px solid red; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+}
