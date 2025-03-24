@@ -57,3 +57,10 @@ input.addEventListener('keydown', function (event) {
 		btn.click()
 	}
 })
+const cler = document.querySelector('#cler')
+cler.addEventListener('click', function () {
+	const li = document.querySelectorAll('.licha')
+	li.forEach(item => {
+		item.remove()
+	})
+})
