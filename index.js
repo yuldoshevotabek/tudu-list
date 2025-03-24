@@ -29,7 +29,7 @@ function yuqori() {
 			item.parentElement.remove()
 		})
 	})
-	window.res = false
+	var res = false
 	tayyor.forEach(item => {
 		item.addEventListener('click', () => {
 			if (!res) {
@@ -47,6 +47,7 @@ function yuqori() {
 	}
 	input.value = ''
 }
+btn.addEventListener('click', yuqori)
 input.addEventListener('keydown', function (event) {
 	if (event.key === 'Enter') {
 		if (input.value === '') {
@@ -56,4 +57,3 @@ input.addEventListener('keydown', function (event) {
 		btn.click()
 	}
 })
-btn.addEventListener('click', yuqori)
