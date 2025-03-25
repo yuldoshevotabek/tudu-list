@@ -38,8 +38,9 @@ ul li {
 	gap: 0.3rem;
 	font-weight: 700;
 	font-size: 1.4rem;
-	/* border: 1px solid red; */
-	width: 45vh;
+	border: 1px solid red;
+	width: 250px;
+	overflow: hidden;
 	position: relative;
 }
 ul li button {
@@ -114,9 +115,12 @@ ul li button {
 	height: 80px;
 }
 #ulli {
-	padding: 0;
-	width: 250px;
-	/* border: 1px solid red; */
+	padding-right: 2rem;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid red;
 }
 #cler {
 	border: none;
