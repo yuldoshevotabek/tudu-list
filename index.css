@@ -38,7 +38,7 @@ ul li {
 	gap: 0.3rem;
 	font-weight: 700;
 	font-size: 1.4rem;
-	/* border: 1px solid red; */
+	border: 1px solid red;
 	width: 250px;
 }
 ul li button {
@@ -139,4 +139,26 @@ ul li button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+@media screen and (max-width: 400px) {
+	ul li {
+		color: var(--black);
+		display: flex;
+		justify-content: start;
+		padding-right: 1.2rem;
+		align-items: center;
+		gap: 0.3rem;
+		font-weight: 700;
+		font-size: 1.4rem;
+		/* border: 1px solid red; */
+		width: 250px;
+		position: relative;
+		overflow: hidden;
+	}
+	#tugma {
+		color: var(--red);
+		outline: none;
+		position: absolute;
+		right: 0px;
+	}
 }
