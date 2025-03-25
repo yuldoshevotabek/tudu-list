@@ -143,15 +143,12 @@ ul li button {
 @media screen and (max-width: 400px) {
 	ul li {
 		color: var(--black);
-		display: flex;
-		align-items: center;
-		/* justify-content: space-between; */
+		display: block;
 		gap: 0.3rem;
 		font-weight: 700;
 		font-size: 1.4rem;
-		border: 1px solid red;
+		/* border: 1px solid red; */
 		width: 250px;
-		/* overflow: hidden; */
 		position: relative;
 	}
 	#tugma {
