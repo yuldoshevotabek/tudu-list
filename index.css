@@ -140,23 +140,3 @@ ul li button {
 	justify-content: center;
 	align-items: center;
 }
-@media screen and (max-width: 400px) {
-	ul li {
-		color: var(--black);
-		display: flex;
-		justify-content: start;
-		align-items: center;
-		gap: 0.3rem;
-		font-weight: 700;
-		font-size: 1.4rem;
-		/* border: 1px solid red; */
-		width: 250px;
-		position: relative;
-	}
-	#tugma {
-		color: var(--red);
-		outline: none;
-		position: absolute;
-		right: 0px;
-	}
-}
