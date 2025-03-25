@@ -114,7 +114,8 @@ ul li button {
 	height: 80px;
 }
 #ulli {
-	padding-right: 2.2rem;
+	padding: 0;
+	width: 250px;
 	/* border: 1px solid red; */
 }
 #cler {
