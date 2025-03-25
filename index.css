@@ -34,14 +34,12 @@ ul li {
 	color: var(--black);
 	display: flex;
 	align-items: center;
-	/* justify-content: space-between; */
+	justify-content: space-between;
 	gap: 0.3rem;
 	font-weight: 700;
 	font-size: 1.4rem;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 250px;
-	overflow: hidden;
-	position: relative;
 }
 ul li button {
 	border-radius: 50%;
@@ -57,8 +55,6 @@ ul li button {
 #tugma {
 	color: var(--red);
 	outline: none;
-	position: absolute;
-	right: 0px;
 }
 .bigDiv_input {
 	border: 1px solid black;
@@ -120,7 +116,7 @@ ul li button {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 #cler {
 	border: none;
@@ -143,4 +139,25 @@ ul li button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+@media screen and (max-width: 400px) {
+	ul li {
+		color: var(--black);
+		display: flex;
+		align-items: center;
+		/* justify-content: space-between; */
+		gap: 0.3rem;
+		font-weight: 700;
+		font-size: 1.4rem;
+		border: 1px solid red;
+		width: 250px;
+		/* overflow: hidden; */
+		position: relative;
+	}
+	#tugma {
+		color: var(--red);
+		outline: none;
+		position: absolute;
+		right: 0px;
+	}
 }
