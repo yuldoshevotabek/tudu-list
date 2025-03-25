@@ -143,7 +143,9 @@ ul li button {
 @media screen and (max-width: 400px) {
 	ul li {
 		color: var(--black);
-		display: block;
+		display: flex;
+		justify-content: start;
+		align-items: center;
 		gap: 0.3rem;
 		font-weight: 700;
 		font-size: 1.4rem;
