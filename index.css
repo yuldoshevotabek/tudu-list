@@ -34,11 +34,13 @@ ul li {
 	color: var(--black);
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	gap: 0.3rem;
 	font-weight: 700;
 	font-size: 1.4rem;
 	/* border: 1px solid red; */
+	width: 50vh;
+	position: relative;
 }
 ul li button {
 	border-radius: 50%;
@@ -54,6 +56,8 @@ ul li button {
 #tugma {
 	color: var(--red);
 	outline: none;
+	position: absolute;
+	right: 0px;
 }
 .bigDiv_input {
 	border: 1px solid black;
@@ -111,6 +115,7 @@ ul li button {
 }
 #ulli {
 	padding-right: 2.2rem;
+	/* border: 1px solid red; */
 }
 #cler {
 	border: none;
