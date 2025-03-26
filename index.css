@@ -38,7 +38,7 @@ ul li {
 	gap: 0.3rem;
 	font-weight: 700;
 	font-size: 1.4rem;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 250px;
 }
 ul li button {
@@ -160,5 +160,13 @@ ul li button {
 		outline: none;
 		position: absolute;
 		right: 0px;
+	}
+	#ulli {
+		padding-right: 2rem;
+		width: 190px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* border: 1px solid red; */
 	}
 }
